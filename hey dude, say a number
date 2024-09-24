@@ -1,23 +1,40 @@
 print('hey dude')
-print('say a number')
-number1 = input()
-number1 = int(number1)
+number1 = 0
+number2 = 0
+loop = True
+answer = 'no'
 
-while number1 < 10:
-  print('U shy? try again')
-  number1 = input()
-  number1 = int(number1)
-if number1 >= 100 and number1 <1000:
-  print('that sure is a big number')
-elif number1 >= 1000 and number1 <10000:
-  print('that sure is a really big number')
-elif number1 >= 10000 and number1 <100000:
-  print('dude, why such a huge one???')
-elif number1 >= 100000:
-  print('U kidding me, right?')
+while loop == True:
+ print('say a number')
+ number1 = input()
+ number1 = int(number1)
 
-print('say one more')
-number2 = input()
-number2 = int(number2)
-print('if you sum them, the result is', number1 + number2)
-print("nice, isn't it?")
+ while number1 < 10:
+   print('U shy? try again')
+   number1 = input()
+   number1 = int(number1)
+   
+ if number1 >= 10 and number1 <100:
+   print('ok')
+ elif number1 >= 100 and number1 <1000:
+   print('that sure is a big number')
+ elif number1 >= 1000 and number1 <10000:
+   print('that sure is a really big number')
+ elif number1 >= 10000 and number1 <100000:
+   print('dude, why such a huge one???')
+ elif number1 >= 100000:
+   print('U kidding me, right?')
+
+ print('say one more')
+ number2 = input()
+ number2 = int(number2)
+  
+ print('if you sum them, the result is', number1 + number2, ". Nice, isn't it?")
+  
+ print('wanna try again?')
+ answer = input()
+ if answer == "yes":
+  loop = True
+
+# corrigir a forma como se obtem as respostas
+# criar interações para respostas alternativas
