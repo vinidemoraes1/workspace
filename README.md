@@ -1,0 +1,3 @@
+- 👋 Hey there, I’m Vini!
+- 🌱 I’m currently learning HTML, CSS, JavaScript and Python
+- ⚡ Fun fact: I got an extra tooth LOL
