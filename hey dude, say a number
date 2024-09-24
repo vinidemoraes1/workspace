@@ -2,6 +2,7 @@ print('hey dude')
 print('say a number')
 number1 = input()
 number1 = int(number1)
+
 while number1 < 10:
   print('U shy? try again')
   number1 = input()
