@@ -1,0 +1,102 @@
+#print
+print('sabe muito')
+print(10/2)
+
+# string(str)
+# integral(int + e -)
+# float(1.0/-3,14/0.3)
+# boolean = True ou False
+
+nome = 'João'
+idade = 18
+peso = 75.5
+print(nome,idade,peso)
+
+print(nome)
+print(idade)
+print(peso)
+
+#imput - retorna uma string
+nome = input('Qual é o seu nome?')
+idade = input('Qual é a sua idade?')
+peso = input('Qual é o seu peso')
+
+print(nome,idade,peso)
+print(nome)
+print(idade)
+print(peso)
+
+#conversão
+#idade = int
+#peso = float
+
+nome = input('Qual é o seu nome?')
+idade = int(input('Qual é a sua idade?'))
+peso = float(input('Qual é o seu peso'))
+
+print(nome,idade,peso)
+print(nome)
+print(idade)
+print(peso)
+
+#operadores
+potencia = 2**3
+print("potencia 2³ =", potencia)
+
+#condições
+
+if idade >= 18:
+  print('Você é maior de idade')
+else:
+  print('Você é menor de idade')
+
+#elif = else + if (ou se)
+
+salario = float(input('Qual é o seu salário?'))
+
+if salario <= 3000:
+  print('salario baixo')
+elif salario > 3000 and salario <= 6000:
+  print('salario medio')
+elif salario > 6000 <= 15000:
+ print('salario alto')
+else:
+   print('salario enorme')
+
+valor1 = int(input('Digite o primeiro valor:'))
+valor2 = int(input('Digite o segundo valor:'))
+  
+if valor1 > valor2:
+  print(valor1, 'é maior que', valor2)
+else:
+   print(valor2, 'é maior que', valor1)
+
+# listas
+
+lista_nomes = ['João','Maria','José']
+lista_numeros = [1,2,3]
+lista_decimais = [1.0,2.0,3.0]
+print(lista_numeros)
+print(lista_numeros[0],lista_numeros[1])
+print(lista_numeros[0])
+print(lista_numeros[1])
+print(lista_numeros[2])
+print(lista_nomes)
+print(lista_nomes[0],lista_nomes[1])
+print(lista_nomes[0])
+print(lista_nomes[1])
+print(lista_nomes[2])
+
+lista_numeros[0] = 5
+print(lista_numeros[0])
+
+lista_vazia = []
+lista_vazia.append("python")
+lista_vazia.append("é")
+lista_vazia.append("muito")
+lista_vazia.append("top")
+print(lista_vazia)
+
+# tuple = tuple
+# dict = dictionary
+# set = set
